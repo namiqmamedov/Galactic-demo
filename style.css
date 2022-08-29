@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 25rem 0;
+    background: #37474f;
+   
+    display: flex;
+     
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.spinner-box{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+      
+}
+.solar-system{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.orbit{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ffff;
+    border-radius: 50%;
+}
+.earth-orbit{
+    width: 165px;
+    height: 165px;
+    animation: spin 12s linear 0s infinite;
+}
+.venus-orbit{
+    width: 120px;
+    height: 120px;
+    animation: spin 7.4s linear 0s infinite;
+}
+
+.mercury-orbit{
+    
+    width: 90px;
+    height: 90px;
+    animation: spin 3s linear 0s infinite;
+}
+
+
+
+.mars-orbit{
+    width: 150px;
+    height: 150px;
+    animation: spin 1 linear 0s infinite;
+}
+.sun{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: yellow;
+    
+}
+
+
+
+
+.planet{
+    position: absolute;
+    top: -5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #3ff9dc;
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+/* .spinner-box .galactic .sun{
+    border-radius: 50%;
+    border: 1px solid #ffff;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spinner-box .galactic .mercury{
+    border-radius: 50%;
+    border: 1px solid #ffff; 
+    
+}    
+
+
+
+
+.spinner-box .sun img{
+    width: 70%;
+    
+}
+.spinner-box .sun{   
+    width: 115px;
+    height: 115px;
+}
+
+
+
+.spinner-box .mercury{
+    width: 35px;
+    height: 35px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
