@@ -58,13 +58,22 @@ body{
 
 
 .mars-orbit{
-    width: 150px;
-    height: 150px;
-    animation: spin 1 linear 0s infinite;
+    width: 210px;
+    height: 210px;
+    animation: spin 22.57017s linear 0s infinite;
 }
+
+
+.jupiter-orbit{
+    width: 240px;
+    height: 240px;
+    animation: spin 142.35138s linear 0s infinite;
+}
+
+
 .sun{
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     background-color: yellow;
     
